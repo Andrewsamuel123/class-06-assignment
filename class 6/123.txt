@@ -1,0 +1,27 @@
+code .
+
+= ko asign opertor khaty hai 
+n1 ko agr number sy define kro to number lik d
+an dage n2 ki ho to inference hai mtlb define na kiya ho
+
+let n1 :number = 6 strong type
+let n2 :number = 10 ineterference
+let sign  : string  = "+"
+ 
+
+if revesed key word hai
+
+ if(that baraket called body){} or is m puri java script likh skty hai  
+
+
+
+function mycal(n1, n2, sign) {
+    if (sign == "+") {
+        console.log(n1 + n2);
+    }
+    else if (sign == "-") {
+        console.log(n1 - n2);
+        console.log("invalid sign");
+    }
+}
+mycal(10, 5, "*")
